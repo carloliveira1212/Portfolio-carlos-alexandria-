@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projetos · Carlos Alexandria</title>
+<meta name="description" content="Sites publicados por Carlos Alexandria, com ficha técnica: Mundo Pet, escritório de contabilidade, Os Papéis de Shakespeare, Línguas de Hogwarts, Deslinguistimificando e Cartografia do Jangurussu.">
+<meta name="theme-color" content="#f1f3f0">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Projetos · Carlos Alexandria">
+<meta property="og:description" content="Sites publicados por Carlos Alexandria, com ficha técnica: Mundo Pet, escritório de contabilidade, Os Papéis de Shakespeare, Línguas de Hogwarts, Deslinguistimificando e Cartografia do Jangurussu.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="impressao.css" media="print">
+<script>
+(function(){var d=document.documentElement;d.classList.add('js');try{var h=new Date().getHours();d.dataset.fase=h>=5&&h<11?'manha':h>=11&&h<16?'dia':h>=16&&h<19?'tarde':'noite';var t=localStorage.getItem('tema');if(t!=='claro'&&t!=='escuro')t='auto';d.dataset.tema=t;d.dataset.scheme=(t==='escuro'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light';}catch(e){d.dataset.fase='dia';d.dataset.scheme='light';d.dataset.tema='auto';}})();
+</script>
+</head>
+<body data-pagina="projetos">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<div class="progresso" aria-hidden="true"></div>
+<header class="topo">
+  <div class="topo__in">
+    <a class="marca" href="index.html" aria-label="Carlos Alexandria, página inicial">
+      <span class="marca__sigla" aria-hidden="true">CA</span>
+      <span class="marca__nome">Carlos Alexandria</span>
+    </a>
+    <button class="btn-icone menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span class="menu-btn__barras" aria-hidden="true"></span></button>
+    <nav class="nav" id="menu" aria-label="Principal">
+      <ul><li><a href="index.html" data-pagina="inicio">Início</a></li><li><a href="projetos.html" data-pagina="projetos">Projetos</a></li><li><a href="curriculo.html" data-pagina="curriculo">Currículo</a></li><li><a href="contato.html" data-pagina="contato">Contato</a></li></ul>
+    </nav>
+    <button class="btn-icone tema-btn" id="tema-btn" type="button" aria-label="Tema: automático. Clique para alternar." title="Tema: automático. Clique para alternar."><svg class="i i-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/></svg><svg class="i i-claro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></svg><svg class="i i-escuro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+  </div>
+</header>
+<main id="conteudo">
+<section class="cabecalho-pagina">
+  <div class="container">
+    <p class="rotulo"><b>—</b> Projetos</p>
+    <h1>Projetos publicados</h1>
+    <p>Sites que desenvolvi, cada um com a sua ficha técnica. As imagens são prévias e não abrem link: use os botões para visitar o site ou copiar o endereço.</p>
+    <div class="filtros" data-filtros role="group" aria-label="Filtrar projetos por categoria">
+      <button class="chip" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+      <button class="chip" type="button" data-filtro="institucional" aria-pressed="false">Institucionais</button>
+      <button class="chip" type="button" data-filtro="educativo" aria-pressed="false">Educativos</button>
+    </div>
+    <p class="filtros__contagem" data-contagem aria-live="polite"></p>
+  </div>
+</section>
+<section class="secao" style="padding-top:0">
+  <div class="container">
+    <div class="lista-proj" data-lista-projetos></div>
+    <noscript><p>Ative o JavaScript para ver as fichas. Enquanto isso, acesse os sites:</p><ul><li><a href="https://mundopet-psi.vercel.app/" target="_blank" rel="noopener noreferrer">Mundo Pet</a></li><li><a href="https://escrivania-contabilistico.vercel.app/" target="_blank" rel="noopener noreferrer">Escritório de Contabilidade</a></li><li><a href="https://shakespeare-jade.vercel.app/" target="_blank" rel="noopener noreferrer">Os Papéis de Shakespeare</a></li><li><a href="https://linguas-hogwarts.vercel.app/" target="_blank" rel="noopener noreferrer">Línguas de Hogwarts</a></li><li><a href="https://deslinguistimificando.vercel.app/" target="_blank" rel="noopener noreferrer">Deslinguistimificando</a></li><li><a href="https://cartografia-jangurussu-yk6l.vercel.app/" target="_blank" rel="noopener noreferrer">Cartografia do Jangurussu</a></li></ul></noscript>
+  </div>
+</section>
+<section class="secao secao--alt">
+  <div class="container duas-colunas">
+    <div data-revelar>
+      <p class="rotulo"><b>—</b> Próximo passo</p>
+      <h2 class="secao__titulo">Quer conversar sobre algum projeto?</h2>
+      <p>Dúvidas, sugestões e observações são sempre bem-vindas.</p>
+    </div>
+    <div class="acoes" style="margin-top:0;align-self:center" data-revelar="2">
+      <a class="btn" href="contato.html">Falar comigo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn--sec" href="curriculo.html">Ver currículo</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="rodape">
+  <div class="container">
+    <div class="rodape__grade">
+      <div>
+        <p class="rodape__nome">Carlos Alexandria</p>
+        <p>Portfólio de desenvolvimento web: currículo, projetos publicados e formas de contato.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <h2>Navegação</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="curriculo.html">Currículo</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Contato</h2>
+        <ul>
+          <li><a href="https://wa.me/5585998724041?text=Ol%C3%A1%2C%20Carlos%21%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar." data-href="whatsapp" data-bind="telefone">(85) 99872-4041</a></li>
+          <li><a href="mailto:carloalexandria1212@gmail.com" data-href="email" data-bind="email">carloalexandria1212@gmail.com</a></li>
+          <li><a href="contato.html">Formulário de contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rodape__fim">
+      <p>© <span data-ano>2026</span> Carlos Alexandria de Oliveira. Todos os direitos reservados.</p>
+      <p><a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos de uso</a></p>
+      <p>Feito com HTML, CSS e JavaScript · Cores do período: <span data-fase-rotulo>dia</span></p>
+    </div>
+  </div>
+</footer>
+<script src="dados.js" defer></script>
+<script src="render.js" defer></script>
+<script src="app.js" defer></script>
+<script src="projetos.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* ==========================================================================
+   TOKENS DE DESIGN
+   --------------------------------------------------------------------------
+   Toda a paleta nasce de UM número: --hue (matiz, 0–360).
+   O script (app.js) troca esse matiz conforme o horário do visitante:
+
+     manhã  05h–10h59  → 28   terracota / pêssego
+     dia    11h–15h59  → 158  verde-mar
+     tarde  16h–18h59  → 44   ocre / areia
+     noite  19h–04h59  → 205  azul-petróleo
+
+   Para mudar a identidade do site, edite os valores de --hue abaixo
+   (ou os valores de saturação/luminosidade nos blocos claro/escuro).
+   ========================================================================== */
+
+/* Permite animar o matiz (transição suave de cor) nos navegadores modernos. */
+@property --hue  { syntax: "<number>"; inherits: true; initial-value: 158; }
+@property --tom  { syntax: "<number>"; inherits: true; initial-value: 158; }
+
+:root {
+  --hue: 158;
+
+  /* Tipografia — fontes do próprio sistema: nada para baixar, nada quebra offline.
+     Para usar uma fonte web, veja o README (seção "Trocar fontes"). */
+  --fonte-titulo: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --fonte-corpo: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --fonte-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+
+  /* Medidas */
+  --largura: 72rem;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --raio: 6px;
+  --raio-g: 12px;
+
+  /* Movimento */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  /* ---- Cores: esquema CLARO (padrão) ---- */
+  color-scheme: light;
+  --bg:          hsl(var(--hue) 24% 95%);   /* papel */
+  --bg-alt:      hsl(var(--hue) 22% 91%);
+  --surface:     hsl(var(--hue) 30% 98%);
+  --ink:         hsl(var(--hue) 24% 12%);
+  --muted:       hsl(var(--hue) 10% 34%);
+  --line:        hsl(var(--hue) 14% 79%);
+  --accent:      hsl(var(--hue) 58% 27%);
+  --accent-strong: hsl(var(--hue) 62% 19%);
+  --accent-soft: hsl(var(--hue) 42% 87%);
+  --on-accent:   #ffffff;
+  --erro:        hsl(6 62% 38%);
+}
+
+/* ---- Esquema ESCURO ---- */
+:root[data-scheme="dark"] {
+  color-scheme: dark;
+  --bg:          hsl(var(--hue) 16% 9%);
+  --bg-alt:      hsl(var(--hue) 14% 12%);
+  --surface:     hsl(var(--hue) 14% 14%);
+  --ink:         hsl(var(--hue) 20% 92%);
+  --muted:       hsl(var(--hue) 10% 70%);
+  --line:        hsl(var(--hue) 12% 26%);
+  --accent:      hsl(var(--hue) 55% 68%);
+  --accent-strong: hsl(var(--hue) 62% 78%);
+  --accent-soft: hsl(var(--hue) 30% 20%);
+  --on-accent:   hsl(var(--hue) 40% 9%);
+  --erro:        hsl(6 78% 70%);
+}
+
+/* ---- Matiz por período do dia ---- */
+:root[data-fase="manha"]  { --hue: 28; }
+:root[data-fase="dia"]    { --hue: 158; }
+:root[data-fase="tarde"]  { --hue: 44; }
+:root[data-fase="noite"]  { --hue: 205; }

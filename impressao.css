@@ -1,0 +1,30 @@
+/* ==========================================================================
+   IMPRESSÃO — "Imprimir / salvar em PDF" na página Currículo
+   ========================================================================== */
+@media print {
+  @page { margin: 16mm; }
+
+  :root {
+    --bg: #fff; --bg-alt: #fff; --surface: #fff;
+    --ink: #111; --muted: #444; --line: #bbb;
+    --accent: #111; --accent-soft: #eee;
+  }
+
+  body { display: block; background: #fff; color: #111; font-size: 11pt; line-height: 1.5; }
+
+  .topo, .rodape, .progresso, .toast, .skip-link, .nao-imprimir, .acoes { display: none !important; }
+
+  .container { max-width: none; padding-inline: 0; }
+  .secao, .cabecalho-pagina { padding-block: 0; }
+
+  .cv { display: block; }
+  .cv__lateral { position: static; margin-bottom: 1rem; }
+  .cv__bloco { break-inside: avoid; padding-block: .75rem; }
+  .cv__nome { font-size: 20pt; }
+
+  a { color: #111; text-decoration: none; }
+  .cv a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; color: #444; word-break: break-all; }
+  .cv a[href*="wa.me"]::after { content: ""; } /* o link do WhatsApp é longo demais para o papel */
+
+  .js [data-revelar] { opacity: 1 !important; transform: none !important; animation: none !important; }
+}

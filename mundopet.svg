@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1300" width="720" height="1300" role="img">
+<rect width="720" height="1300" fill="#FBF6EF"/>
+<rect width="720" height="120" fill="#FFFFFF"/><rect y="120" width="720" height="2" fill="#E4D5C2"/>
+<text x="40" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#2B2118">Mundo Pet</text>
+<rect x="628" y="52" width="52" height="5" rx="2.5" fill="#2B2118"/><rect x="628" y="68" width="52" height="5" rx="2.5" fill="#2B2118"/><rect x="628" y="84" width="52" height="5" rx="2.5" fill="#2B2118"/>
+<text x="40" y="178" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="21" fill="#7A6A5B">Seg a sáb, 8h às 19h · Vila Mariana, São Paulo</text>
+<text x="40" y="240" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#A8481F">VILA MARIANA · SÃO PAULO</text>
+<text x="40" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#2B2118">Pet shop de bairro com</text>
+<text x="40" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#2B2118">banho, tosa e veterinário</text>
+<text x="40" y="406" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#2B2118">no mesmo lugar</text>
+<rect x="40" y="446" width="600" height="14" rx="7" fill="#E4D5C2"/><rect x="40" y="476" width="570" height="14" rx="7" fill="#E4D5C2"/><rect x="40" y="506" width="380" height="14" rx="7" fill="#E4D5C2"/>
+<rect x="40" y="552" width="310" height="68" rx="10" fill="#A8481F"/><text x="195" y="595" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Agendar banho e tosa</text>
+<rect x="372" y="553" width="200" height="66" rx="10" fill="none" stroke="#2B2118" stroke-width="3"/><text x="472" y="595" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#2B2118">Ver produtos</text>
+<rect x="40" y="664" width="640" height="290" rx="14" fill="#F0E1D0"/><text x="360" y="816" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" fill="#7A6A5B">Foto da loja</text>
+<text x="40" y="1030" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#2B2118">Por que trazer seu pet aqui</text>
+<rect x="40" y="1064" width="310" height="96" rx="12" fill="#fff" stroke="#E4D5C2" stroke-width="2"/>
+<text x="60" y="1106" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="700" fill="#2B2118">Veterinário no local</text>
+<rect x="60" y="1126" width="220" height="12" rx="6" fill="#E4D5C2"/>
+<rect x="370" y="1064" width="310" height="96" rx="12" fill="#fff" stroke="#E4D5C2" stroke-width="2"/>
+<text x="390" y="1106" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="700" fill="#2B2118">Delivery em 2h</text>
+<rect x="390" y="1126" width="220" height="12" rx="6" fill="#E4D5C2"/>
+<rect x="40" y="1174" width="310" height="96" rx="12" fill="#fff" stroke="#E4D5C2" stroke-width="2"/>
+<text x="60" y="1216" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="700" fill="#2B2118">Sala separada para gatos</text>
+<rect x="60" y="1236" width="220" height="12" rx="6" fill="#E4D5C2"/>
+<rect x="370" y="1174" width="310" height="96" rx="12" fill="#fff" stroke="#E4D5C2" stroke-width="2"/>
+<text x="390" y="1216" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="700" fill="#2B2118">Marcas importadas</text>
+<rect x="390" y="1236" width="220" height="12" rx="6" fill="#E4D5C2"/>
+</svg>
